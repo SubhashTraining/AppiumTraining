@@ -1,0 +1,26 @@
+2021-07-08 01:05:36:273 [Appium] Welcome to Appium v1.21.0
+2021-07-08 01:05:36:274 [Appium] Non-default server args:
+2021-07-08 01:05:36:274 [Appium]   logFile: C:\Users\Sanjay\Appium\eclipse-workspace\AppiumTest1\src\test\resources\Logs\AppiumLogs\logs_08072021010535.log
+2021-07-08 01:05:36:274 [Appium]   localTimezone: true
+2021-07-08 01:05:36:295 [Appium] Appium REST http interface listener started on 0.0.0.0:4723
+2021-07-08 01:05:36:532 [HTTP] --> GET /wd/hub/status
+2021-07-08 01:05:36:533 [HTTP] {}
+2021-07-08 01:05:36:534 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2021-07-08 01:05:36:535 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.21.0"}}
+2021-07-08 01:05:36:538 [HTTP] <-- GET /wd/hub/status 200 5 ms - 68
+2021-07-08 01:05:36:538 [HTTP] 
+2021-07-08 01:06:14:886 [HTTP] <-- GET /wd/hub/status 500 13 ms - 2518
+2021-07-08 01:06:14:886 [HTTP] 
+2021-07-08 01:06:14:908 [HTTP] --> GET /wd/hub/status
+2021-07-08 01:06:14:908 [HTTP] {}
+2021-07-08 01:06:14:908 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2021-07-08 01:06:14:909 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.21.0"}}
+2021-07-08 01:06:14:909 [HTTP] <-- GET /wd/hub/status 200 1 ms - 68
+2021-07-08 01:06:14:910 [HTTP] 
+2021-07-08 01:07:17:659 [HTTP] --> GET /wd/hub/status
+2021-07-08 01:07:17:660 [HTTP] {}
+2021-07-08 01:07:17:660 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2021-07-08 01:07:17:660 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.21.0"}}
+2021-07-08 01:07:17:661 [HTTP] <-- GET /wd/hub/status 200 1 ms - 68
+2021-07-08 01:07:17:661 [HTTP] 
+2021-07-08 01:07:18:362 [HTTP] --> POST /wd/hub/session

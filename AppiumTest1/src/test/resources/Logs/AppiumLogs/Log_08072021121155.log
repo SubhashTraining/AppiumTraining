@@ -1,0 +1,221 @@
+2021-07-07 18:41:56:642 [Appium] Welcome to Appium v1.21.0
+2021-07-07 18:41:56:644 [Appium] Non-default server args:
+2021-07-07 18:41:56:644 [Appium]   logFile: C:\Users\Sanjay\Appium\eclipse-workspace\AppiumTest1\src\test\resources\Logs\AppiumLogs\Log_08072021121155.log
+2021-07-07 18:41:56:667 [Appium] Appium REST http interface listener started on 0.0.0.0:4723
+2021-07-07 18:41:57:000 [HTTP] --> GET /wd/hub/status
+2021-07-07 18:41:57:000 [HTTP] {}
+2021-07-07 18:41:57:001 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2021-07-07 18:41:57:002 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.21.0"}}
+2021-07-07 18:41:57:005 [HTTP] <-- GET /wd/hub/status 200 5 ms - 68
+2021-07-07 18:41:57:005 [HTTP] 
+2021-07-07 18:42:02:664 [HTTP] --> POST /wd/hub/session
+2021-07-07 18:42:02:664 [HTTP] {"desiredCapabilities":{"chromedriverExecutable":"C:\\Users\\Sanjay\\Appium\\eclipse-workspace\\AppiumTest1\\Drivers\\chromedriver.exe","goog:chromeOptions":{"args":[],"extensions":[],"w3c":false},"appiumVersion":"1.21.0","automationName":"UiAutomator2","browserName":"chrome","platformName":"Android","deviceName":"65f651f31e00"},"capabilities":{"alwaysMatch":{"appium:appiumVersion":"1.21.0","appium:automationName":"UiAutomator2","browserName":"chrome","appium:chromedriverExecutable":"C:\\Users\\Sanjay\\Appium\\eclipse-workspace\\AppiumTest1\\Drivers\\chromedriver.exe","appium:deviceName":"65f651f31e00","goog:chromeOptions":{"args":[],"extensions":[],"w3c":false},"platformName":"android"},"firstMatch":[{}]}}
+2021-07-07 18:42:02:665 [W3C] Calling AppiumDriver.createSession() with args: [{"chromedriverExecutable":"C:\\Users\\Sanjay\\Appium\\eclipse-workspace\\AppiumTest1\\Drivers\\chromedriver.exe","goog:chromeOptions":{"args":[],"extensions":[],"w3c":false},"appiumVersion":"1.21.0","automationName":"UiAutomator2","browserName":"chrome","platformName":"Android","deviceName":"65f651f31e00"},null,{"alwaysMatch":{"appium:appiumVersion":"1.21.0","appium:automationName":"UiAutomator2","browserName":"chrome","appium:chromedriverExecutable":"C:\\Users\\Sanjay\\Appium\\eclipse-workspace\\AppiumTest1\\Drivers\\chromedriver.exe","appium:deviceName":"65f651f31e00","goog:chromeOptions":{"args":[],"extensions":[],"w3c":false},"platformName":"android"},"firstMatch":[{}]}]
+2021-07-07 18:42:02:665 [BaseDriver] Event 'newSessionRequested' logged at 1625683322665 (00:12:02 GMT+0530 (India Standard Time))
+2021-07-07 18:42:02:973 [Appium] Appium v1.21.0 creating new AndroidUiautomator2Driver (v1.65.0) session
+2021-07-07 18:42:02:974 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2021-07-07 18:42:02:974 [BaseDriver] Creating session with W3C capabilities: {
+2021-07-07 18:42:02:974 [BaseDriver]   "alwaysMatch": {
+2021-07-07 18:42:02:975 [BaseDriver]     "browserName": "chrome",
+2021-07-07 18:42:02:975 [BaseDriver]     "goog:chromeOptions": {
+2021-07-07 18:42:02:975 [BaseDriver]       "args": [],
+2021-07-07 18:42:02:975 [BaseDriver]       "extensions": [],
+2021-07-07 18:42:02:975 [BaseDriver]       "w3c": false
+2021-07-07 18:42:02:975 [BaseDriver]     },
+2021-07-07 18:42:02:975 [BaseDriver]     "platformName": "android",
+2021-07-07 18:42:02:975 [BaseDriver]     "appium:appiumVersion": "1.21.0",
+2021-07-07 18:42:02:975 [BaseDriver]     "appium:automationName": "UiAutomator2",
+2021-07-07 18:42:02:975 [BaseDriver]     "appium:chromedriverExecutable": "C:\\Users\\Sanjay\\Appium\\eclipse-workspace\\AppiumTest1\\Drivers\\chromedriver.exe",
+2021-07-07 18:42:02:975 [BaseDriver]     "appium:deviceName": "65f651f31e00"
+2021-07-07 18:42:02:975 [BaseDriver]   },
+2021-07-07 18:42:02:976 [BaseDriver]   "firstMatch": [
+2021-07-07 18:42:02:976 [BaseDriver]     {}
+2021-07-07 18:42:02:976 [BaseDriver]   ]
+2021-07-07 18:42:02:976 [BaseDriver] }
+2021-07-07 18:42:02:981 [BaseDriver] The following capabilities were provided, but are not recognized by Appium:
+2021-07-07 18:42:02:981 [BaseDriver]   goog:chromeOptions
+2021-07-07 18:42:02:981 [BaseDriver]   appiumVersion
+2021-07-07 18:42:02:981 [BaseDriver] Session created with session id: ccada677-849c-4443-96f3-453e303fdbd9
+2021-07-07 18:42:02:982 [UiAutomator2] We're going to run a Chrome-based session
+2021-07-07 18:42:02:982 [UiAutomator2] Chrome-type package and activity are com.android.chrome and com.google.android.apps.chrome.Main
+2021-07-07 18:42:02:982 [UiAutomator2] Starting 'com.android.chrome' directly on the device
+2021-07-07 18:42:02:988 [ADB] Found 2 'build-tools' folders under 'C:\Users\Sanjay\AppData\Local\Android\Sdk' (newest first):
+2021-07-07 18:42:02:989 [ADB]     C:/Users/Sanjay/AppData/Local/Android/Sdk/build-tools/31.0.0-rc5
+2021-07-07 18:42:02:989 [ADB]     C:/Users/Sanjay/AppData/Local/Android/Sdk/build-tools/30.0.3
+2021-07-07 18:42:02:989 [ADB] Using 'adb.exe' from 'C:\Users\Sanjay\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2021-07-07 18:42:02:990 [ADB] Running 'C:\Users\Sanjay\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+2021-07-07 18:42:03:012 [AndroidDriver] Retrieving device list
+2021-07-07 18:42:03:013 [ADB] Trying to find a connected android device
+2021-07-07 18:42:03:013 [ADB] Getting connected devices
+2021-07-07 18:42:03:031 [ADB] No connected devices have been detected
+2021-07-07 18:42:03:032 [ADB] Could not find online devices
+2021-07-07 18:42:03:032 [ADB] Reconnecting adb (target offline)
+2021-07-07 18:42:03:032 [ADB] Running 'C:\Users\Sanjay\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2021-07-07 18:42:03:261 [ADB] Getting connected devices
+2021-07-07 18:42:03:282 [ADB] No connected devices have been detected
+2021-07-07 18:42:03:282 [ADB] Could not find online devices
+2021-07-07 18:42:03:282 [ADB] Reconnecting adb (target offline)
+2021-07-07 18:42:03:282 [ADB] Running 'C:\Users\Sanjay\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2021-07-07 18:42:03:510 [ADB] Getting connected devices
+2021-07-07 18:42:03:537 [ADB] No connected devices have been detected
+2021-07-07 18:42:03:537 [ADB] Could not find online devices
+2021-07-07 18:42:03:537 [ADB] Reconnecting adb (target offline)
+2021-07-07 18:42:03:538 [ADB] Running 'C:\Users\Sanjay\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2021-07-07 18:42:03:760 [ADB] Getting connected devices
+2021-07-07 18:42:03:778 [ADB] No connected devices have been detected
+2021-07-07 18:42:03:778 [ADB] Could not find online devices
+2021-07-07 18:42:03:778 [ADB] Reconnecting adb (target offline)
+2021-07-07 18:42:03:778 [ADB] Running 'C:\Users\Sanjay\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2021-07-07 18:42:03:997 [ADB] Getting connected devices
+2021-07-07 18:42:04:015 [ADB] No connected devices have been detected
+2021-07-07 18:42:04:015 [ADB] Could not find online devices
+2021-07-07 18:42:04:015 [ADB] Reconnecting adb (target offline)
+2021-07-07 18:42:04:015 [ADB] Running 'C:\Users\Sanjay\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2021-07-07 18:42:04:248 [ADB] Getting connected devices
+2021-07-07 18:42:04:268 [ADB] No connected devices have been detected
+2021-07-07 18:42:04:268 [ADB] Could not find online devices
+2021-07-07 18:42:04:269 [ADB] Reconnecting adb (target offline)
+2021-07-07 18:42:04:269 [ADB] Running 'C:\Users\Sanjay\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2021-07-07 18:42:04:497 [ADB] Getting connected devices
+2021-07-07 18:42:04:518 [ADB] No connected devices have been detected
+2021-07-07 18:42:04:518 [ADB] Could not find online devices
+2021-07-07 18:42:04:518 [ADB] Reconnecting adb (target offline)
+2021-07-07 18:42:04:518 [ADB] Running 'C:\Users\Sanjay\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2021-07-07 18:42:04:747 [ADB] Getting connected devices
+2021-07-07 18:42:04:768 [ADB] No connected devices have been detected
+2021-07-07 18:42:04:768 [ADB] Could not find online devices
+2021-07-07 18:42:04:768 [ADB] Reconnecting adb (target offline)
+2021-07-07 18:42:04:768 [ADB] Running 'C:\Users\Sanjay\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2021-07-07 18:42:04:989 [ADB] Getting connected devices
+2021-07-07 18:42:05:009 [ADB] No connected devices have been detected
+2021-07-07 18:42:05:009 [ADB] Could not find online devices
+2021-07-07 18:42:05:010 [ADB] Reconnecting adb (target offline)
+2021-07-07 18:42:05:010 [ADB] Running 'C:\Users\Sanjay\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2021-07-07 18:42:05:239 [ADB] Getting connected devices
+2021-07-07 18:42:05:272 [ADB] No connected devices have been detected
+2021-07-07 18:42:05:273 [ADB] Could not find online devices
+2021-07-07 18:42:05:273 [ADB] Reconnecting adb (target offline)
+2021-07-07 18:42:05:273 [ADB] Running 'C:\Users\Sanjay\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2021-07-07 18:42:05:504 [ADB] Getting connected devices
+2021-07-07 18:42:05:526 [ADB] No connected devices have been detected
+2021-07-07 18:42:05:526 [ADB] Could not find online devices
+2021-07-07 18:42:05:527 [ADB] Reconnecting adb (target offline)
+2021-07-07 18:42:05:527 [ADB] Running 'C:\Users\Sanjay\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2021-07-07 18:42:05:754 [ADB] Getting connected devices
+2021-07-07 18:42:05:777 [ADB] No connected devices have been detected
+2021-07-07 18:42:05:777 [ADB] Could not find online devices
+2021-07-07 18:42:05:777 [ADB] Reconnecting adb (target offline)
+2021-07-07 18:42:05:777 [ADB] Running 'C:\Users\Sanjay\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2021-07-07 18:42:05:998 [ADB] Getting connected devices
+2021-07-07 18:42:06:049 [ADB] No connected devices have been detected
+2021-07-07 18:42:06:049 [ADB] Could not find online devices
+2021-07-07 18:42:06:049 [ADB] Reconnecting adb (target offline)
+2021-07-07 18:42:06:049 [ADB] Running 'C:\Users\Sanjay\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2021-07-07 18:42:06:278 [ADB] Getting connected devices
+2021-07-07 18:42:06:296 [ADB] No connected devices have been detected
+2021-07-07 18:42:06:297 [ADB] Could not find online devices
+2021-07-07 18:42:06:297 [ADB] Reconnecting adb (target offline)
+2021-07-07 18:42:06:297 [ADB] Running 'C:\Users\Sanjay\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2021-07-07 18:42:06:529 [ADB] Getting connected devices
+2021-07-07 18:42:06:578 [ADB] No connected devices have been detected
+2021-07-07 18:42:06:578 [ADB] Could not find online devices
+2021-07-07 18:42:06:578 [ADB] Reconnecting adb (target offline)
+2021-07-07 18:42:06:579 [ADB] Running 'C:\Users\Sanjay\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2021-07-07 18:42:06:810 [ADB] Getting connected devices
+2021-07-07 18:42:06:828 [ADB] No connected devices have been detected
+2021-07-07 18:42:06:829 [ADB] Could not find online devices
+2021-07-07 18:42:06:829 [ADB] Reconnecting adb (target offline)
+2021-07-07 18:42:06:829 [ADB] Running 'C:\Users\Sanjay\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2021-07-07 18:42:07:049 [ADB] Getting connected devices
+2021-07-07 18:42:07:067 [ADB] No connected devices have been detected
+2021-07-07 18:42:07:067 [ADB] Could not find online devices
+2021-07-07 18:42:07:067 [ADB] Reconnecting adb (target offline)
+2021-07-07 18:42:07:067 [ADB] Running 'C:\Users\Sanjay\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2021-07-07 18:42:07:299 [ADB] Getting connected devices
+2021-07-07 18:42:07:316 [ADB] No connected devices have been detected
+2021-07-07 18:42:07:316 [ADB] Could not find online devices
+2021-07-07 18:42:07:316 [ADB] Reconnecting adb (target offline)
+2021-07-07 18:42:07:316 [ADB] Running 'C:\Users\Sanjay\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2021-07-07 18:42:07:549 [ADB] Getting connected devices
+2021-07-07 18:42:07:567 [ADB] No connected devices have been detected
+2021-07-07 18:42:07:567 [ADB] Could not find online devices
+2021-07-07 18:42:07:567 [ADB] Reconnecting adb (target offline)
+2021-07-07 18:42:07:567 [ADB] Running 'C:\Users\Sanjay\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2021-07-07 18:42:07:799 [ADB] Getting connected devices
+2021-07-07 18:42:07:825 [ADB] No connected devices have been detected
+2021-07-07 18:42:07:826 [ADB] Could not find online devices
+2021-07-07 18:42:07:826 [ADB] Reconnecting adb (target offline)
+2021-07-07 18:42:07:826 [ADB] Running 'C:\Users\Sanjay\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2021-07-07 18:42:08:062 [ADB] Getting connected devices
+2021-07-07 18:42:08:079 [ADB] No connected devices have been detected
+2021-07-07 18:42:08:080 [ADB] Could not find online devices
+2021-07-07 18:42:08:080 [ADB] Reconnecting adb (target offline)
+2021-07-07 18:42:08:080 [ADB] Running 'C:\Users\Sanjay\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2021-07-07 18:42:08:311 [ADB] Getting connected devices
+2021-07-07 18:42:08:329 [ADB] No connected devices have been detected
+2021-07-07 18:42:08:329 [ADB] Could not find online devices
+2021-07-07 18:42:08:329 [ADB] Reconnecting adb (target offline)
+2021-07-07 18:42:08:330 [ADB] Running 'C:\Users\Sanjay\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2021-07-07 18:42:08:562 [ADB] Getting connected devices
+2021-07-07 18:42:08:604 [ADB] No connected devices have been detected
+2021-07-07 18:42:08:604 [ADB] Could not find online devices
+2021-07-07 18:42:08:604 [ADB] Reconnecting adb (target offline)
+2021-07-07 18:42:08:604 [ADB] Running 'C:\Users\Sanjay\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2021-07-07 18:42:08:827 [ADB] Getting connected devices
+2021-07-07 18:42:08:848 [ADB] No connected devices have been detected
+2021-07-07 18:42:08:848 [ADB] Could not find online devices
+2021-07-07 18:42:08:848 [ADB] Reconnecting adb (target offline)
+2021-07-07 18:42:08:849 [ADB] Running 'C:\Users\Sanjay\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2021-07-07 18:42:09:079 [ADB] Getting connected devices
+2021-07-07 18:42:09:097 [ADB] No connected devices have been detected
+2021-07-07 18:42:09:097 [ADB] Could not find online devices
+2021-07-07 18:42:09:097 [ADB] Reconnecting adb (target offline)
+2021-07-07 18:42:09:097 [ADB] Running 'C:\Users\Sanjay\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2021-07-07 18:42:09:329 [ADB] Getting connected devices
+2021-07-07 18:42:09:348 [ADB] No connected devices have been detected
+2021-07-07 18:42:09:349 [ADB] Could not find online devices
+2021-07-07 18:42:09:350 [ADB] Reconnecting adb (target offline)
+2021-07-07 18:42:09:350 [ADB] Running 'C:\Users\Sanjay\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2021-07-07 18:42:09:579 [ADB] Getting connected devices
+2021-07-07 18:42:09:600 [ADB] No connected devices have been detected
+2021-07-07 18:42:09:600 [ADB] Could not find online devices
+2021-07-07 18:42:09:600 [ADB] Reconnecting adb (target offline)
+2021-07-07 18:42:09:600 [ADB] Running 'C:\Users\Sanjay\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2021-07-07 18:42:09:829 [ADB] Getting connected devices
+2021-07-07 18:42:09:846 [ADB] No connected devices have been detected
+2021-07-07 18:42:09:847 [ADB] Could not find online devices
+2021-07-07 18:42:09:847 [ADB] Reconnecting adb (target offline)
+2021-07-07 18:42:09:847 [ADB] Running 'C:\Users\Sanjay\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2021-07-07 18:42:10:067 [ADB] Getting connected devices
+2021-07-07 18:42:10:088 [ADB] No connected devices have been detected
+2021-07-07 18:42:10:089 [ADB] Could not find online devices
+2021-07-07 18:42:10:089 [ADB] Reconnecting adb (target offline)
+2021-07-07 18:42:10:089 [ADB] Running 'C:\Users\Sanjay\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2021-07-07 18:42:10:316 [ADB] Getting connected devices
+2021-07-07 18:42:10:333 [ADB] No connected devices have been detected
+2021-07-07 18:42:10:333 [ADB] Could not find online devices
+2021-07-07 18:42:10:333 [ADB] Reconnecting adb (target offline)
+2021-07-07 18:42:10:333 [ADB] Running 'C:\Users\Sanjay\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2021-07-07 18:42:10:551 [ADB] Getting connected devices
+2021-07-07 18:42:10:579 [ADB] No connected devices have been detected
+2021-07-07 18:42:10:579 [ADB] Could not find online devices
+2021-07-07 18:42:10:579 [ADB] Reconnecting adb (target offline)
+2021-07-07 18:42:10:579 [ADB] Running 'C:\Users\Sanjay\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2021-07-07 18:42:10:698 uncaughtException: EPIPE: broken pipe, write
+Error: EPIPE: broken pipe, write
+    at Socket._write (internal/net.js:58:25)
+    at doWrite (_stream_writable.js:431:12)
+    at writeOrBuffer (_stream_writable.js:415:5)
+    at Socket.Writable.write (_stream_writable.js:305:11)
+    at Console.log (C:\Users\Sanjay\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\Sanjay\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\Sanjay\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\Sanjay\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\Sanjay\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\Sanjay\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (events.js:215:7)
+    at addChunk (C:\Users\Sanjay\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+    at readableAddChunk (C:\Users\Sanjay\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:280:11)
+    at DerivedLogger.Readable.push (C:\Users\Sanjay\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:241:10)
+    at DerivedLogger.Transform.push (C:\Users\Sanjay\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\readable-stream\lib\_stream_transform.js:139:32)
+    at DerivedLogger._transform (C:\Users\Sanjay\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\winston\lib\winston\logger.js:305:12)
